@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SharedProject_IS_HeavyIndustry.exe" version="1.0.0.9" publicKeyToken="ddeeca651dd5c5f2" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17960">
+      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mMuAKcsiYkfCLLpdzBZYsvv27dkYOQrapCUZa2zMgjo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="av_libglesv2.dll" size="4369408">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hbOu5HwODq86XqXHW6gTE4ehJjm2oO8oDChTH7d2la4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="e_sqlite3.dll" size="1743360">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BvnDmeBQBrlJvH8XSuqt6FqKXU12KVwGXFue5UVRKek=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="google-ortools-native.dll" size="25254912">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p5vIbLWAe6s9SdMbLWFvcxTeQd9JqCn+ITxjWrxzN6M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="libHarfBuzzSharp.dll" size="1607088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8T0NrgClmGIKQ2/ZkSGaLg/mFX6skPqgJdTXaEXNmWw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="libSkiaSharp.dll" size="9414064">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Mmixst44TQDtd0Mf6KHwU9LGnu4l0H3Pw1JJFXDWO1I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="logo.ico" size="14704">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6fauz1kpqVKAi4UF5m1965Vu2Jm1VadjcUonkfp7zPM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SharedProject_IS_HeavyIndustry.exe" size="94400584">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vv7NJU1MySs5OeFWaxL5WNx+Mqdh7DT6Xh5Hlr9xZxc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Red Hood Software Inc., O=Red Hood Software Inc., C=KR" issuerKeyHash="16e1586b24dd6477489b21601d646c77b146b6c6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1F0AAXq8Cqnp+hw3hPiObLHdFWltJMDicAHNwU9zwY8=</DigestValue></Reference></SignedInfo><SignatureValue>zF5tGRbBrylGAxWGvDjRSrHeBqRzfZL5/W6oudIiGaEzbyZigtGJb+Ryv6+efigpf5rzBZn8Txk4b2X19hBD4gmCfS2aBxZu69AiNQltTszknH1wg4G7h/LlDMIK6eu0DuCFw94FtmsB1X6hqVxUX3srym0nLGLJmBXwP7+Qs05eueHgWK3LejlPnK+G1oVuxY/C2oHvQXp3iiwll/apgEEW9dxJrjVtWJYiEc/ui8AbCFR7p6iCqiZKikuvO5ZsvK0jdNyq9h9EoiHqx/v1t3gyOEefJEBgruE5GaGzUWwiTuvQacI/GtgytIlYwFYv60F/TE/knJMmLxD1/sRoNg==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>9nDLuYCIjRn29n6kcWxFX5pCzmUmboNA+OBf3spRrdWxieqZSZzzaPvCaRPK4K8ULJqO0yyuNoTf9onr/lZf69jAeWZf2B47xpimjgFWjpu9rxuMjqQ0zntt+MX9iyVAwXIzcuV9BnUbSKk+lLIkudFMsBaaChlymkfhQm+QOapz6KB/IOGdjh10HoyEuZicZA7JSiBGKKX97f057WdYH7kfZKqT+HEe5JL0g/p/zJUncY+xYgPx1ZMrcDAsDODfLjm45kegFixQ2N6kT2o7zwbdhSY9C+wSPf8vzmbSHVsoofPwzEF0mdEjsps4vSu6AaCSQHJwaIPEALXonX1QNQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8fc1734fc1cd0170e2c0246d6915ddb16c8ef884371cfae9a90abc7a01005dd4" Description="" Url=""><as:assemblyIdentity name="SharedProject_IS_HeavyIndustry.exe" version="1.0.0.9" publicKeyToken="ddeeca651dd5c5f2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Red Hood Software Inc., O=Red Hood Software Inc., C=KR</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2noxNCPSSSi/jOt2I1Wxvx7EDf+kdijWvVfLRb4084Q=</DigestValue></Reference></SignedInfo><SignatureValue>JHWEwsY1mwT+Bv6uG4bk+ntV/wURyZp1RNYTYE17EiZHcIWEkxUC7Qfag+j4Ol7uEd37YYjJtJANjFQ+TnQiD6NlbsIvh7olopGja47ddQ1fAUOICznauPQK4ZoXAa7GXYW4NIi9EDPAGy3IgvSVEqULAEko1QUcuDwZsmc8trS3CtHeVFMWmfLHDTRs6T+G0BeNwvvtD6/4CwMI3SYGgQ9IzFG+XcR1WdiSy4TqUqMWx5q13c2w2NSWc8Hdqxtsc4UZMaCB0HxxVWekLImp2rEgQsuDWjvBApFEqqpEqLtGepns9X0me2rPK+jh565wcqhO8seCTr9qh8N915dRPw==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>9nDLuYCIjRn29n6kcWxFX5pCzmUmboNA+OBf3spRrdWxieqZSZzzaPvCaRPK4K8ULJqO0yyuNoTf9onr/lZf69jAeWZf2B47xpimjgFWjpu9rxuMjqQ0zntt+MX9iyVAwXIzcuV9BnUbSKk+lLIkudFMsBaaChlymkfhQm+QOapz6KB/IOGdjh10HoyEuZicZA7JSiBGKKX97f057WdYH7kfZKqT+HEe5JL0g/p/zJUncY+xYgPx1ZMrcDAsDODfLjm45kegFixQ2N6kT2o7zwbdhSY9C+wSPf8vzmbSHVsoofPwzEF0mdEjsps4vSu6AaCSQHJwaIPEALXonX1QNQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDfDCCAmSgAwIBAgIQGW4yGVwB3KBCFFOkyW85qzANBgkqhkiG9w0BAQsFADBPMQswCQYDVQQGEwJLUjEfMB0GA1UECgwWUmVkIEhvb2QgU29mdHdhcmUgSW5jLjEfMB0GA1UEAwwWUmVkIEhvb2QgU29mdHdhcmUgSW5jLjAeFw0yNTA0MjIxNTU1MDVaFw0yNjA0MjIxNjE1MDVaME8xCzAJBgNVBAYTAktSMR8wHQYDVQQKDBZSZWQgSG9vZCBTb2Z0d2FyZSBJbmMuMR8wHQYDVQQDDBZSZWQgSG9vZCBTb2Z0d2FyZSBJbmMuMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9nDLuYCIjRn29n6kcWxFX5pCzmUmboNA+OBf3spRrdWxieqZSZzzaPvCaRPK4K8ULJqO0yyuNoTf9onr/lZf69jAeWZf2B47xpimjgFWjpu9rxuMjqQ0zntt+MX9iyVAwXIzcuV9BnUbSKk+lLIkudFMsBaaChlymkfhQm+QOapz6KB/IOGdjh10HoyEuZicZA7JSiBGKKX97f057WdYH7kfZKqT+HEe5JL0g/p/zJUncY+xYgPx1ZMrcDAsDODfLjm45kegFixQ2N6kT2o7zwbdhSY9C+wSPf8vzmbSHVsoofPwzEF0mdEjsps4vSu6AaCSQHJwaIPEALXonX1QNQIDAQABo1QwUjAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUFuFYayTdZHdImyFgHWRsd7FGtsYwDQYJKoZIhvcNAQELBQADggEBAMEbQVE/CYkPTIcootvztvQfqSduP7+YL798Kis+JQWAHIw6LydHJZUvYQpiVWN0vPc2u5zgmCN++TzgozY2sGgZHt3gVih6sRgZVi496C+QXmHa04jvh6WAr5msJtglqZNAjwoJ7C6VPFfpRDQb7bQ4aNTaEfF+F5cEDbCQde1qu2KHMpVRMwxcz0j2noDf8RVcCeYvCgDevZHp7cHRCImyGmdnc2IUpVFhcEusFHefA4huH424LwSKVzcxQyxHg2j5tCC3+OGZguEB5oZ/ZkOXZm5+9YS9BnXMWKJf2cjMbnzAlgv0IwJ82HnJUvpxsqg9GYwI46W0Rmih7oWE4MU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
